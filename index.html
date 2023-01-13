@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Color Scheme Generator</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+        <h1>Color Scheme</h1>
+        <header>
+            <div class="nav">
+                <input type="color" class="color-input" id="color-input" />
+                <select id="color-scheme">
+                    <option value="monochrome">Monochrome</option>
+                    <option value="monochrome-dark">Monochrome-dark</option>
+                    <option value="monochrome-light">Monochrome-light</option>
+                    <option value="analogic">Analogic</option>
+                    <option value="complement">Complement</option>
+                    <option value="analogic-complement">Analogic-complement</option>
+                    <option value="triad">Triad</option>
+                </select>
+                <button id="btn">Get color scheme</button>
+            </div>
+        </header>
+        <main>
+            <div id="bar">
+                <div id="colorBar1" class="bars"></div>
+                <h5 id="color1">#494040</h5>
+            </div>
+            <div id="bar">
+                <div id="colorBar2" class="bars"></div>
+                <h5 id="color2">#655757</h5>
+            </div>
+            <div id="bar">
+                <div id="colorBar3" class="bars"></div>
+                <h5 id="color3">#826E6E</h5>
+            </div>
+            <div id="bar">
+                <div id="colorBar4" class="bars"></div>
+                <h5 id="color4">#919191</h5>
+            </div>
+            <div id="bar">
+                <div id="colorBar5" class="bars"></div>
+                <h5 id="color5">#ABABAB</h5>
+            </div>
+        </main>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>

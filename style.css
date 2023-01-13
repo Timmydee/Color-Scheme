@@ -1,0 +1,88 @@
+html, body {
+    padding: 0;
+}
+.container{
+   width: 90%;
+   padding: 10px;    
+   margin: 10px;
+}
+h1{
+   text-align: center;
+}
+header{
+   width: 550px;
+   display: flex;
+   justify-content: space-around;
+   margin-bottom: 0px;
+   height: 40px;
+   margin: 0 auto;
+   align-items: center;
+}
+input{
+   width: 50px;
+}
+button{
+   width: 180px;
+}
+select{
+   width: 230px;
+   background-color: black;
+   color: #fff;
+}
+main{    
+   display: flex;
+   align-items: center;
+   justify-content: center
+}
+.bars{    
+   border: 1px solid black;
+   border-radius: 10px;
+   margin-top: 10px;
+   height: 50vh;    
+   width: 90px;
+}   
+h3{        
+   margin: 0;
+   direction: flex;
+   margin: 0 auto;
+}
+#colorBar1{
+   cursor: pointer;
+   background-color: #494040;
+}
+#colorBar2{
+   cursor: pointer;
+   background-color: #655757;
+}
+#colorBar3{
+   cursor: pointer;
+   background-color: #826E6E;
+}
+#colorBar4{
+   cursor: pointer;
+   background-color: #ABABAB;
+}
+#colorBar5{
+   cursor: pointer;
+   background-color: #ABABAB;
+}
+@media (max-width:500px) {
+   h1{
+       margin-bottom: 40px; 
+   }
+   header{
+       width: 100px;
+       margin-bottom: 30px;
+   }
+   input{
+       margin-bottom: 5px;
+   }
+   select{
+       margin-bottom: 5px;
+   }
+   .bars{
+       width: 60px;
+       font-size: 200px;
+   }
+
+}
